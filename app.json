@@ -1,0 +1,30 @@
+{
+   "name":"Ko-Fi Webhooks",
+   "description":"An App to get Ko-Fi payment updates on Telegram.",
+   "keywords":[
+      "Ko-Fi",
+      "telegram",
+      "Flask"
+   ],
+   "website":"https://ko-fi/",
+   "repository":"https://github.com/jainamoswal/ko-fi",
+   "logo":"https://telegra.ph//file/53ef12c9e39139e8500bb.jpg",
+   "success_url":"https://t.me/j_projects",
+   "env":{
+       "BOT_TOKEN":{
+          "description":"Your Bot token from @botfather",
+          "value":"180xxxxxxx:AAE7IGM7dwB9YMrxxxxxxxxxxxxxxxxxxxx"
+       },
+       "UPDATE_ID":{
+          "description":"Telegram ID where you want notifications.",
+          "value":"183xxxxxxx"
+       }
+           },
+   "formation":{
+      "web":{
+         "quantity":1,
+         "size":"free"
+               
+           }
+       }
+  }

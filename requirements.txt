@@ -1,0 +1,4 @@
+flask==2.0.1
+gunicorn==20.1.0
+python-telegram-bot==13.6
+python-decouple==3.4
